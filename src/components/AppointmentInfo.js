@@ -20,7 +20,7 @@ const AppointmentInfo = ({ appointment, onDeleteAppointment }) => {
           <span className="flex-grow text-right">{appointment.aptDate}</span>
         </div>
         <div>
-          <b className="font-bold text-blue-500">Owner:</b>{" "}
+          <b className="font-bold text-blue-500">Contacts:</b>{" "}
           {appointment.ownerName}
         </div>
         <div className="leading-tight">{appointment.aptNotes}</div>
@@ -28,5 +28,4 @@ const AppointmentInfo = ({ appointment, onDeleteAppointment }) => {
     </li>
   );
 };
-
 export default AppointmentInfo;

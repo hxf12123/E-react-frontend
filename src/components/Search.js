@@ -25,14 +25,14 @@ const DropDown = ({
             className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 flex justify-between cursor-pointer"
             role="menuitem"
           >
-            Pet Name {sortBy === "petName" ? <BiCheck /> : null}
+            Name {sortBy === "petName" ? <BiCheck /> : null}
           </div>
           <div
             onClick={() => onSortByChange("ownerName")}
             className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 flex justify-between cursor-pointer"
             role="menuitem"
           >
-            Owner Name {sortBy === "ownerName" ? <BiCheck /> : null}
+            Emergency Contact {sortBy === "ownerName" ? <BiCheck /> : null}
           </div>
           <div
             onClick={() => onSortByChange("aptDate")}
